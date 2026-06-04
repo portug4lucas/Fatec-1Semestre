@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+   <link rel="icon" href="https://www.cps.sp.gov.br/favicon.ico" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mega-Sena</title>
+  <link rel="stylesheet" href="/assets/css/style.css">
+</head>
+<body>
+
+  <div class="card">
+    <h1>Mega-Sena</h1>
+    <p class="subtitle">Consulte o último resultado ou busque por concurso.</p>
+
+    <div class="field">
+      <label>Concurso</label>
+      <div class="input-row">
+        <input type="number" id="inputConcurso" placeholder="Ex.: 2840">
+        <button onclick="buscarConcurso()">Buscar</button>
+      </div>
+    </div>
+
+    <div id="resultado" class="hidden">
+      <div class="concurso-header">
+        <div>
+          <h2 id="tituloConcurso"></h2>
+          <p id="dataConcurso"></p>
+        </div>
+        <span id="acumulou" class="tag hidden">Acumulou</span>
+      </div>
+
+      <div id="dezenas" class="dezenas"></div>
+
+      <div class="premios">
+        <div class="premio">
+          <strong>6 acertos</strong>
+          <p id="info6"></p>
+        </div>
+        <div class="premio">
+          <strong>5 acertos</strong>
+          <p id="info5"></p>
+        </div>
+        <div class="premio">
+          <strong>4 acertos</strong>
+          <p id="info4"></p>
+        </div>
+        <div class="premio">
+          <strong>Estimativa</strong>
+          <p id="infoEstimativa"></p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="card">
+    <h1>Palpite Mega-Sena</h1>
+    <p class="subtitle">Consulte o seu palpite em todos os concursos já realizados.</p>
+
+    <div class="field">
+      <label>Dezenas</label>
+      <div class="input-row">
+        <input type="text" id="inputPalpite" placeholder="12,18,19,21,34,39,41,43,56,58,59,50">
+        <button onclick="buscarPalpite()">Buscar</button>
+      </div>
+    </div>
+
+    <div id="resultadoPalpite" class="hidden">
+      <h2>Resultado do palpite</h2>
+      <p id="totalConsultados" class="subtitle"></p>
+
+      <div id="dezenasPalpite" class="dezenas"></div>
+
+      <div class="premios">
+        <div class="premio">
+          <strong>6 acertos</strong>
+          <p id="palpite6"></p>
+        </div>
+        <div class="premio">
+          <strong>5 acertos</strong>
+          <p id="palpite5"></p>
+        </div>
+        <div class="premio">
+          <strong>4 acertos</strong>
+          <p id="palpite4"></p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="/assets/js/main.js"></script>
+</body>
+</html>
