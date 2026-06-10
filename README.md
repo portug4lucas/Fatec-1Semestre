@@ -7,9 +7,9 @@ Atividades e projetos desenvolvidos durante o primeiro semestre do curso de **De
 - **Fatec-Cadastro-De-Usuario** — Sistema de cadastro de usuário
 - **Fatec-Cadastro-Megasena** — Cadastro de apostas da Megasena
 - **Fatec-Consulta-De-Cep** — Consulta de CEP via API
+- **Fatec-Gerenciador-De-Filas** — Gerenciador de atendimento com filas normal e preferencial
 - **Fatec-Resultados-Megasena** — Resultados da Megasena via API
 - **Fatec-Site-ODS** — Site sobre os ODS da ONU
-- **Fatec-Gerenciador-De-Filas** — Gerenciador de atendimento com filas normal e preferencial
 
 ## Tecnologias
 
