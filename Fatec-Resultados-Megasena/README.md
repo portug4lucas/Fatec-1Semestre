@@ -2,7 +2,6 @@
 
 Aplicação web fullstack para consulta de resultados e verificação de palpites da Mega-Sena, desenvolvida como projeto da disciplina **Desenvolvimento Web I** da **Fatec Jacareí**.
 
-🌐 **Deploy:** https://fatec-megasena-atividade.onrender.com
 
 ---
 
