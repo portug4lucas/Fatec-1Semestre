@@ -47,8 +47,6 @@ npm install
 npm start
 ```
 
-Acesse no navegador: [http://localhost:3000](http://localhost:3000)
-
 ---
 
 ## 📁 Estrutura do projeto
