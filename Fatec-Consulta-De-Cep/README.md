@@ -3,9 +3,6 @@
 Aplicação web desenvolvida com **Node.js**, **Express** e **JavaScript** para a disciplina de **Desenvolvimento Web I** da Fatec Jacareí.
 
 
-## 🔗 Deploy
-
-Acesse a aplicação em produção: **https://atividade-site-consulta-cep.onrender.com**
 
 ---
 
