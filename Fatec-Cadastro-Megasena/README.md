@@ -35,4 +35,3 @@ CREATE TABLE senas (
 node src/server.js
 ```
 
-Acesse em (https://atividade4-fatec.onrender.com)
